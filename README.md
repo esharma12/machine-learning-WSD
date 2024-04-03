@@ -1,4 +1,4 @@
-# machine-learning-WSD
+# nlp-machine-learning-WSD
 1) The problem to be solved is to train a minimum of three different machine learning models from sci-kit learn that will perform word sense disambiguation, essentially that will assign a sense, 'phone' or 'product', to the word 'line' in a sentence. 
 Essentially, the goal is to correctly ascertain the sense of a word using contexutal features in the training data itself. First, we have an ambiguous word with context, and after the word sense 
 disambiguation algorithm is employed, then we can determine the sense of the ambiguous word. The training data consists of sentences/paragraphs of information of a specific context separated by <context> tags, and tagged with one of the two senses.
