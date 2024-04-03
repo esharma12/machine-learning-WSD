@@ -10,16 +10,3 @@ to make predictions of the senses of the word 'line/lines' for each context in t
 Example inputs for wsd-ml.py include: python3 wsd-ml.py line-train.txt line-test.txt NaiveBayes > my-line-answers.txt, or python3 wsd-ml.py line-train.txt line-test.txt > my-line-answers.txt. To use Logistic Regression, input LogisticRegression for ml-model. To use Stochastic Gradient Descent, input StochasticGD for ml-model. 
 The program runs using python 3. line-train.txt line-test.txt are txt files that consist of the training and testing data, respectively. ml-model is the learning machine model that will be used to perform WSD, if no model is passed an argument, the program will default to Naive Bayes
 my-line-answers.txt is where the output of answer tags consisting of the sense tagged to the pieces of testing text is outputted.
-Examples of output when the usage instructions are inputted are the following:
-For Naive Bayes (my-line-answers.txt):
-<answer instance="line-n.w8_059:8174:" senseid="phone"/>
-<answer instance="line-n.w7_098:12684:" senseid="phone"/>
-<answer instance="line-n.w8_106:13309:" senseid="phone"/>...
-For Logistic Regression (my-line-answers.txt):
-<answer instance="line-n.w8_059:8174:" senseid="phone"/>
-<answer instance="line-n.w7_098:12684:" senseid="phone"/>
-<answer instance="line-n.w8_106:13309:" senseid="phone"/>...
-For Stochastic Gradient Descent (my-line-answers.txt):
-<answer instance="line-n.w8_059:8174:" senseid="phone"/>
-<answer instance="line-n.w7_098:12684:" senseid="phone"/>
-<answer instance="line-n.w8_106:13309:" senseid="phone"/>...
